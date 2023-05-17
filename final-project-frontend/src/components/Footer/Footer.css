@@ -1,0 +1,24 @@
+.footer-container {
+  height: 30vh;
+  background-color: var(--secondary);
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 40px; 
+  transition: all 0.2s ease; /* Update the transition property */
+}
+
+.footer-links a:hover {
+  color: var(--accent);
+  transform: scale(1.2); /* Increase the size of icons on hover */
+}
