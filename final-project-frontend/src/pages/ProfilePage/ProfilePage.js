@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import "./ProfilePage.css"
 
 function ProfilePage() {
   return (
-    <div>ProfilePage</div>
+    <div className='profile-wrap-container'>ProfilePage</div>
   )
 }
 

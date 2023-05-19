@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import "./ContactPage.css";
 
 function ContactPage() {
   return (
-    <div>ContactPage</div>
+    <div className='contact-wrap-container'>ContactPage</div>
   )
 }
 
