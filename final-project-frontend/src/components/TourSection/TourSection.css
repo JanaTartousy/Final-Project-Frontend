@@ -147,7 +147,7 @@ body {
 }
 
 .inside-page__btn:hover { 
-  color: #fafbfa;
+  color: var(--primary);
 }
 
 .inside-page__btn:hover::before { 
@@ -172,7 +172,8 @@ body {
   flex-wrap: nowrap;
   height: 100%;
   justify-content: space-evenly;
-  padding: 2rem;
+  padding: 6.8rem;
+  margin-bottom: 3pc;
 }
 
 /* Card ============================================*/
