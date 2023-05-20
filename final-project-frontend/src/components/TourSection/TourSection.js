@@ -6,18 +6,18 @@ import "./TourSection.css";
 function TourSection() {
   return (
     <div>
-    <main class="main">
+    <main className="main">
         
-        <section class="card-area">
+        <section className="card-area">
 
-            <section class="card-section">
-                <div class="card">
-                    <div class="flip-card">
-                        <div class="flip-card__container">
-                            <div class="card-front">
-                                <div class="card-front__tp card-front__tp--city">
+            <section className="card-section">
+                <div className="card">
+                    <div className="flip-card">
+                        <div className="flip-card__container">
+                            <div className="card-front">
+                                <div className="card-front__tp card-front__tp--city">
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" link="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                    viewBox="0 0 60 60" style={{enableBackground: "new 0 0 60 60"}} space="preserve" class="card-front__icon">
+                                    viewBox="0 0 60 60" style={{enableBackground: "new 0 0 60 60"}} space="preserve" className="card-front__icon">
                                <g>
                                    <path d="M49.7,22c-1.1,0-2,0.9-2,2v32.2c0,1.1,0.9,2,2,2s2-0.9,2-2V24C51.7,22.9,50.8,22,49.7,22z"/>
                                    <path d="M13,29.5c1.1,0,2-0.9,2-2s-0.9-2-2-2H5.7v-3h20.8c1.1,0,2-0.9,2-2s-0.9-2-2-2H5.7v-3h20.8c1.1,0,2-0.9,2-2s-0.9-2-2-2H5.7
@@ -38,50 +38,50 @@ function TourSection() {
                                </g>
                                </svg>
 
-                               <h2 class="card-front__heading">
+                               <h2 className="card-front__heading">
                                 City break
                             </h2>
-                            <p class="card-front__text-price">
+                            <p className="card-front__text-price">
                                 From £29
                             </p>
                                 </div>
 
-                                <div class="card-front__bt">
-                                    <p class="card-front__text-view card-front__text-view--city">
+                                <div className="card-front__bt">
+                                    <p className="card-front__text-view card-front__text-view--city">
                                         View me
                                     </p>
                                 </div>
                             </div>
-                            <div class="card-back">
-                                <video class="video__container" autoplay muted loop>
-                                    <source class="video__media" src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761" type="video/mp4"/>
+                            <div className="card-back">
+                                <video className="video__container" autoplay muted loop>
+                                    <source classNameN="video__media" src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761" type="video/mp4"/>
                                 </video>
                             </div>
                         </div>
                     </div>
 
-                    <div class="inside-page">
-                        <div class="inside-page__container">
-                            <h3 class="inside-page__heading inside-page__heading--city">
+                    <div className="inside-page">
+                        <div className="inside-page__container">
+                            <h3 className="inside-page__heading inside-page__heading--city">
                                 For urban lovers
                             </h3>
-                            <p class="inside-page__text">
+                            <p className="inside-page__text">
                                As cities never sleep, there are always something going on, no matter what time!
                             </p>
-                            <a href="#" class="inside-page__btn inside-page__btn--city">View deals</a>
+                            <a href="#" className="inside-page__btn inside-page__btn--city">View deals</a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="card-section">
-                <div class="card">
-                    <div class="flip-card">
-                        <div class="flip-card__container">
-                            <div class="card-front">
-                                <div class="card-front__tp card-front__tp--ski">
+            <section className="card-section">
+                <div className="card">
+                    <div className="flip-card">
+                        <div className="flip-card__container">
+                            <div className="card-front">
+                                <div className="card-front__tp card-front__tp--ski">
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" link="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                    viewBox="0 0 60 60" style={{enableBackground: "new 0 0 60 60"}} space="preserve" class="card-front__icon">
+                                    viewBox="0 0 60 60" style={{enableBackground: "new 0 0 60 60"}} space="preserve" className="card-front__icon">
                                <g>
                                    <path d="M58.8,54.5L38.5,19.3c-0.4-0.6-1-1-1.7-1s-1.4,0.4-1.7,1L14.8,54.5c-0.4,0.6-0.4,1.4,0,2c0.4,0.6,1,1,1.7,1h40.6
                                        c0.7,0,1.4-0.4,1.7-1C59.2,55.9,59.2,55.1,58.8,54.5z M36.8,24.3l5.8,10c-0.5-0.2-1.1-0.3-1.7-0.3c-2.5,0-3.7,1.5-4.6,2.5
@@ -103,51 +103,51 @@ function TourSection() {
                                        c-0.8,0-1.5,0.7-1.5,1.5S39.9,12.3,40.7,12.3z"/>
                                </g>
                                </svg>
-                                               <h2 class="card-front__heading">
+                                               <h2 className="card-front__heading">
                                                    Ski trip
                                                </h2>
-                                               <p class="card-front__text-price">
+                                               <p className="card-front__text-price">
                                                    From £199
                                                </p>
                                 </div>
 
-                                <div class="card-front__bt">
-                                    <p class="card-front__text-view card-front__text-view--ski">
+                                <div className="card-front__bt">
+                                    <p className="card-front__text-view card-front__text-view--ski">
                                         View me
                                     </p>
                                 </div>
                             </div>
 
-                            <div class="card-back">
-                                <video class="video__container" autoplay muted loop>
-                                    <source class="video__media" src="https://player.vimeo.com/external/195913085.sd.mp4?s=7c12f7a83de62a8900fd2ae049297070b9bc8a54&profile_id=164&oauth2_token_id=574477611" type="video/mp4"/>
+                            <div className="card-back">
+                                <video className="video__container" autoplay muted loop>
+                                    <source className="video__media" src="https://player.vimeo.com/external/195913085.sd.mp4?s=7c12f7a83de62a8900fd2ae049297070b9bc8a54&profile_id=164&oauth2_token_id=574477611" type="video/mp4"/>
                                 </video>
                             </div>
                         </div>
                     </div>
 
-                    <div class="inside-page">
-                        <div class="inside-page__container">
-                            <h3 class="inside-page__heading inside-page__heading--ski">
+                    <div className="inside-page">
+                        <div className="inside-page__container">
+                            <h3 className="inside-page__heading inside-page__heading--ski">
                                 For snow lovers
                             </h3>
-                            <p class="inside-page__text">
+                            <p className="inside-page__text">
                                Love snow? Why not take up exciting ski-in sessions and hit the slope? 
                             </p>
-                            <a href="#" class="inside-page__btn inside-page__btn--ski">View deals</a>
+                            <a href="#" className="inside-page__btn inside-page__btn--ski">View deals</a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="card-section">
-                <div class="card">
-                    <div class="flip-card">
-                        <div class="flip-card__container">
-                            <div class="card-front">
-                                <div class="card-front__tp card-front__tp--beach">
+            <section className="card-section">
+                <div className="card">
+                    <div className="flip-card">
+                        <div className="flip-card__container">
+                            <div className="card-front">
+                                <div className="card-front__tp card-front__tp--beach">
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" link="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                    viewBox="0 0 60 60" style={{enableBackground: "new 0 0 60 60"}} space="preserve" class="card-front__icon">
+                                    viewBox="0 0 60 60" style={{enableBackground: "new 0 0 60 60"}} space="preserve" className="card-front__icon">
                                <path d="M57.2,28h-7.4c-0.4-4-2-7.7-4.4-10.6l3.2-3.2c0.8-0.8,0.8-2,0-2.8c-0.8-0.8-2-0.8-2.8,0l-3.2,3.2c-3-2.4-6.6-4-10.6-4.4V2.8
                                    c0-1.1-0.9-2-2-2s-2,0.9-2,2v7.4c-4,0.4-7.7,2-10.6,4.4l-3.2-3.2c-0.8-0.8-2-0.8-2.8,0c-0.8,0.8-0.8,2,0,2.8l3.2,3.2
                                    c-2.4,3-4,6.6-4.4,10.6H2.8c-1.1,0-2,0.9-2,2s0.9,2,2,2h7.4c0.4,4,2,7.7,4.4,10.6l-3.2,3.2c-0.8,0.8-0.8,2,0,2.8
@@ -157,50 +157,50 @@ function TourSection() {
                                    C45.9,38.8,38.8,45.9,30,45.9z"/>
                                </svg>
                                
-                                               <h2 class="card-front__heading">
+                                               <h2 className="card-front__heading">
                                                    Beach time
                                                </h2>
-                                               <p class="card-front__text-price">
+                                               <p className="card-front__text-price">
                                                    From £229
                                                </p>
                                 </div>
 
-                                <div class="card-front__bt">
-                                    <p class="card-front__text-view card-front__text-view--beach">
+                                <div className="card-front__bt">
+                                    <p className="card-front__text-view card-front__text-view--beach">
                                         View me
                                     </p>
                                 </div>
                             </div>
-                            <div class="card-back">
-                                <video class="video__container" autoplay muted loop>
-                                    <source class="video__media" src="https://player.vimeo.com/external/332588783.sd.mp4?s=cab1817146dd72daa6346a1583cc1ec4d9e677c7&profile_id=139&oauth2_token_id=57447761" type="video/mp4"/>
+                            <div className="card-back">
+                                <video className="video__container" autoplay muted loop>
+                                    <source className="video__media" src="https://player.vimeo.com/external/332588783.sd.mp4?s=cab1817146dd72daa6346a1583cc1ec4d9e677c7&profile_id=139&oauth2_token_id=57447761" type="video/mp4"/>
                                 </video>
                             </div>
                         </div>
                     </div>
 
-                    <div class="inside-page">
-                        <div class="inside-page__container">
-                            <h3 class="inside-page__heading inside-page__heading--beach">
+                    <div className="inside-page">
+                        <div className="inside-page__container">
+                            <h3 className="inside-page__heading inside-page__heading--beach">
                                 For sun lovers
                             </h3>
-                            <p class="inside-page__text">
+                            <p className="inside-page__text">
                                Relax and get sun-kissed tan in the sea or take up surfting for an adventure!
                             </p>
-                            <a href="#" class="inside-page__btn inside-page__btn--beach">View deals</a>
+                            <a href="#" className="inside-page__btn inside-page__btn--beach">View deals</a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="card-section">
-                <div class="card">
-                    <div class="flip-card">
-                        <div class="flip-card__container">
-                            <div class="card-front">
-                                <div class="card-front__tp card-front__tp--camping">
+            <section className="card-section">
+                <div className="card">
+                    <div className="flip-card">
+                        <div className="flip-card__container">
+                            <div className="card-front">
+                                <div className="card-front__tp card-front__tp--camping">
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" link="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                    viewBox="0 0 60 60" style={{enableBackground: "new 0 0 60 60"}} space="preserve" class="card-front__icon">
+                                    viewBox="0 0 60 60" style={{enableBackground: "new 0 0 60 60"}} space="preserve" className="card-front__icon">
                                <path d="M57,52.1c0-0.4-0.1-0.7-0.3-1.1l-6.3-10.8L32.4,9l2.3-4c0.6-1,0.2-2.2-0.7-2.7c-1-0.6-2.2-0.2-2.7,0.7L30,5.2L28.7,3
                                    c-0.6-1-1.8-1.3-2.7-0.7c-1,0.6-1.3,1.8-0.7,2.7l2.3,4l-18,31.1L3.3,51C3.1,51.3,3,51.7,3,52.1c0,0.4,0.1,0.7,0.3,1
                                    c0.4,0.6,1,1,1.7,1h50c0.7,0,1.4-0.4,1.7-1C56.9,52.8,57,52.4,57,52.1z M34.7,49.8C34.2,50,32.1,50,30,50s-4.2,0-4.7-0.2
@@ -208,45 +208,47 @@ function TourSection() {
                                    v16.7c-3.9,0.9-6.9,4.4-6.9,8.6l0,4.3c0,1.7,0,2.9,0.2,4H8.5L13.1,42.1z M38.7,50.1c0.2-1,0.2-2.3,0.2-4l0-4.3
                                    c0-4.2-2.9-7.7-6.9-8.6V16.5l15,25.7l4.6,7.9H38.7z"/>
                                </svg>
-                                               <h2 class="card-front__heading">
+                                               <h2 className="card-front__heading">
                                                    Camping trek
                                                </h2>
-                                               <p class="card-front__text-price">
+                                               <p className="card-front__text-price">
                                                    From £129
                                                </p>
                                 </div>
 
-                                <div class="card-front__bt">
-                                    <p class="card-front__text-view card-front__text-view--camping">
+                                <div className="card-front__bt">
+                                    <p className="card-front__text-view card-front__text-view--camping">
                                         View me
                                     </p>
                                 </div>
                             </div>
-                            <div class="card-back">
-                                <video class="video__container" autoplay muted loop>
-                                    <source class="video__media" src="https://player.vimeo.com/external/180185916.sd.mp4?s=c893e4770f87b00e0d6b5a1de138b01b02aaa085&profile_id=164&oauth2_token_id=57447761" type="video/mp4"/>
+                            <div className="card-back">
+                                <video className="video__container" autoplay muted loop>
+                                    <source className="video__media" src="https://player.vimeo.com/external/180185916.sd.mp4?s=c893e4770f87b00e0d6b5a1de138b01b02aaa085&profile_id=164&oauth2_token_id=57447761" type="video/mp4"/>
                                 </video>
                             </div>
                         </div>
                     </div>
 
-                    <div class="inside-page">
-                        <div class="inside-page__container">
-                            <h3 class="inside-page__heading inside-page__heading--camping">
+                    <div className="inside-page">
+                        <div className="inside-page__container">
+                            <h3 className="inside-page__heading inside-page__heading--camping">
                                 For nature lovers
                             </h3>
-                            <p class="inside-page__text">
+                            <p className="inside-page__text">
                                Get your boots on for some hiking and explore all the beautiful scenery of nature!
                             </p>
-                            <a href="#" class="inside-page__btn inside-page__btn--camping">View deals</a>
+                            <a href="#" className="inside-page__btn inside-page__btn--camping">View deals</a>
                         </div>
                     </div>
                 </div>
             </section>
         </section>
-        {/* <footer class="footer">
-            <p class="footer-text">&copy; 2021 Created by Maza designDev</p>
-          </footer> */}
+        <div className="view-more-container">
+          <button className="view-more-button" onClick={() => window.location.href='/tours'}>
+            View more tours
+          </button>
+        </div>
     </main>
 </div>
   )
