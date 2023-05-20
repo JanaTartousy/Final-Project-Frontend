@@ -27,6 +27,9 @@ function Footer() {
           <FaGithub/>
         </a>
       </div>
+      {/* <div className='footer-text'>
+      <p>&copy; 2023 Created by Jana Tartousy</p>
+      </div> */}
     </div>
   );
 }
