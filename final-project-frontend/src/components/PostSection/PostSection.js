@@ -5,7 +5,7 @@ import postImg from "../../images/Baatara.jpg";
 function PostSection() {
   return (
     <div className="post-section">
-      <div className="container">
+      <div className="post-container">
         <div className="post-content">
           <h2>Know Before You Go</h2>
           <h1>
