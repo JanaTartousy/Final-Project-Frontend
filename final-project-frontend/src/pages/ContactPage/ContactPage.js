@@ -1,10 +1,17 @@
 import React from 'react';
-import "./ContactPage.css";
+import ContactHero from '../../components/ContactHero/ContactHero.js';
+import ContactForm from '../../components/ContactForm/ContactForm.js';
+import './ContactPage.css';
 
 function ContactPage() {
+ 
+
   return (
-    <div className='contact-wrap-container'>ContactPage</div>
-  )
+    <div className="contact-page-container">
+      <ContactHero/>
+    <ContactForm/>
+    </div>
+  );
 }
 
-export default ContactPage
+export default ContactPage;
