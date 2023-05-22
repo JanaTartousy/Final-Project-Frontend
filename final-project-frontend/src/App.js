@@ -8,6 +8,7 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer.js';
+import TourDetails from './pages/TourDetailsPage/TourDetailsPage.js' 
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/profile" element={<Profile />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/tour-details" element={<TourDetails />} />
         </Routes>
         <Footer/>
       </div>
