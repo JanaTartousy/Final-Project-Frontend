@@ -9,6 +9,7 @@ import Register from './components/Register/Register';
 import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer.js';
 import TourDetails from './pages/TourDetailsPage/TourDetailsPage.js' 
+import PostPage from './pages/PostPage/PostPage';
 
 const App = () => {
   return (
@@ -24,6 +25,8 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/tour-details" element={<TourDetails />} />
+          <Route path="/posts" element={<PostPage />} />
+
         </Routes>
         <Footer/>
       </div>

@@ -368,10 +368,10 @@ body {
   border-radius: 4px;
   cursor: pointer;
   margin-top: -80px;
-  transition: transform 0.3s ease;
+  /* transition: transform 0.3s ease; */
 }
 
 .view-more-button:hover {
   background-color: var(--accent);
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }

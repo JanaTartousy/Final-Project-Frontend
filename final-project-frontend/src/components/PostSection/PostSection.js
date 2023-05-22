@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 import "./PostSection.css";
 import postImg from "../../images/Baatara.jpg";
 
@@ -24,6 +26,7 @@ function PostSection() {
             faucibus orci luctus et ultrices posuere cubilia curae; Aliquam at
             nunc purus. Aliquam at nunc purus.
           </p>
+          <Link to="/posts" className="see-more-button">See More</Link>
         </div>
         <div className="post-images">
           <div className="post-img-box">
