@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../images/dalili-logo.png';
+import Logo from '../../images/dalili.png';
 import './Nav.css';
 
 const Navbar = () => {

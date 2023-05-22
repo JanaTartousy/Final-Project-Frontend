@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import Logo from '../../images/dalili-logo.png';
+import Logo from '../../images/dalili.png';
 import { FaInstagram, FaFacebook, FaWhatsapp, FaLinkedin, FaGithub} from 'react-icons/fa';
 
 function Footer() {
