@@ -17,12 +17,12 @@
   }
   
   .post-content h2 {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 500;
     margin-bottom: 20px;
     color: var(--black);
     background-color: var(--shadows);
-    width: 15pc;
+    width: 17pc;
     height: 50px;
     border: none !important;
     border-radius: 50px !important;

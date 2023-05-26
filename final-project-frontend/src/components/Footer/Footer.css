@@ -1,30 +1,59 @@
 .footer-container {
-  height: 30vh;
+  height: 35vh;
   background-color: var(--secondary);
   display: flex;
   justify-content: center; 
   align-items: center;
+  position: sticky;
 }
-/* .footer-logo{
-width: 120px;
-height: 120px;
-} */
-.footer-links {
+
+.footer-pages {
   display: flex;
   gap: 20px;
 }
+.footer-pages h2{
+  text-decoration: underline;
+}
 
-.footer-links a {
+.icons-container a {
   text-decoration: none;
   color: var(--primary);
-  font-size: 40px; 
-  transition: all 0.2s ease; /* Update the transition property */
+  font-size: 40px;
+  transition: all 0.3s ease;
+  margin-right: 15px;
 }
 
-.footer-links a:hover {
+.icons-container a:hover {
   color: var(--accent);
-  transform: scale(1.2); /* Increase the size of icons on hover */
+  transform: scale(1.1);
+  /* font-size: 40px;  */
 }
-/* .footer-text p{
+
+.contact-wrapper{
   color: var(--primary);
-} */
+}
+.footer-text{
+  color: var(--primary);
+}
+.link-title{
+  color: var(--primary);
+}
+.links-container{
+  display: flex;
+  flex-direction: column;
+}
+.small-links{
+  font-size: 20px; 
+  margin: 0 10px; 
+  color: var(--primary);
+  text-decoration: none;
+}
+.small-links:hover{
+  text-decoration: underline;
+  color: var(--accent);
+
+}
+.info-title{
+  color: var(--primary);
+  text-decoration: underline;
+}
