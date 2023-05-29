@@ -1,23 +1,22 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import axios from 'axios';
-import './TourCards.css';
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import axios from "axios";
+import "./TourCards.css";
 
 function TourCards() {
   const [tours, setTours] = useState([]);
 
+  const fetchTours = async () => {
+    try {
+      const response = await axios.get(`${process.env.REACT_APP_URL}/tour`);
+      setTours(response.data.docs);
+      // setTours(data)
+      console.log(tours);
+    } catch (error) {
+      console.error("Error fetching tours:", error);
+    }
+  };
   useEffect(() => {
-    const fetchTours = async () => {
-      try {
-        const response = await axios.get(`${process.env.REACT_APP_URL}/tour`);
-        const data = response.data;
-        setTours(data);
-        console.log(response.data)
-      } catch (error) {
-        console.error('Error fetching tours:', error);
-      }
-    };
-
     fetchTours();
   }, []);
 

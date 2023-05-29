@@ -1,5 +1,6 @@
 .tour-card-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 4pc;
   margin-bottom: 4pc;
@@ -7,7 +8,7 @@
 }
 
 .tour-card {
-  width: 350px;
+  width: calc(20% - 1pc); 
   background-color: var(--primary);
   box-shadow: 0 0 10px var(--shadows);
   border-radius: 8px;
