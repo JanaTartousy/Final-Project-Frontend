@@ -5,18 +5,16 @@ import { TextField, Button } from "@mui/material";
 import { AiFillEdit } from "react-icons/ai";
 import { MdDelete } from "react-icons/md";
 import Swal from "sweetalert2";
-import "./DashTour.css";
+import "./DashPost.css";
 
-function Tour() {
+function Income() {
   const [Data, setData] = useState();
   const [DataById, setDataById] = useState({
-    Title: "",
     description: "",
     amount: "",
     date: "",
   });
   const [DataPost, SetPostData] = useState({
-    Title: "",
     description: "",
     amount: "",
     date: "",
@@ -62,7 +60,7 @@ function Tour() {
     responsive: "simple",
     selectableRows: "none",
     search: true,
-    searchPlaceholder: "Search forTour",
+    searchPlaceholder: "Search for Income",
     download: true,
     print: true,
     pagination: true,
@@ -214,11 +212,11 @@ function Tour() {
   return (
     <div className="incomessss">
       <div className="none">
-        {/* for addTour */}
+        {/* for add income */}
         {visibleAdd && (
           <form> 
             <div className="head-form">
-              <h2>Add Tour</h2>
+              <h2>Add Income</h2>
               <button
                 onClick={() => {
                   show();
@@ -229,13 +227,6 @@ function Tour() {
                 x
               </button>
             </div>
-            <label htmlFor="title"> Title</label>
-            <TextField
-              type="text"
-              name="title"
-              required="required"
-              onChange={handelChangePost}
-            />
             <label htmlFor="description"> Description</label>
             <TextField
               type="text"
@@ -243,7 +234,7 @@ function Tour() {
               required="required"
               onChange={handelChangePost}
             />
-            <label htmlFor="amount"> Location </label>
+            <label htmlFor="amount"> Amount </label>
             <TextField
               type="text"
               name="amount"
@@ -303,11 +294,11 @@ function Tour() {
             </Button>
           </form>
         )}
-        {/* for editTour */}
+        {/* for edit income */}
         {visibleEdit && (
           <form>
             <div className="head-form">
-              <h2>EditTour </h2>
+              <h2>Edit Income </h2>
               <button
                 onClick={() => {
                   show();
@@ -355,14 +346,14 @@ function Tour() {
               onChange={handelChangeEdit}
             /> */}
             <Button variant="outlined" onClick={EditData}>
-              EditTour
+              Edit Income
             </Button>
           </form>
         )}
       </div>
       <div className="income_table">
        
-          <h3 className="pagetitle">Tours</h3>
+          <h3 className="pagetitle">Income</h3>
         
 
         <div className="table_mui">
@@ -379,7 +370,7 @@ function Tour() {
                     showicon();
                   }}
                 >
-                  + Add Tour
+                  + Add Income
                 </Button>
               )
             }
@@ -390,5 +381,5 @@ function Tour() {
   );
 }
 
-export default Tour;
+export default Income;
 

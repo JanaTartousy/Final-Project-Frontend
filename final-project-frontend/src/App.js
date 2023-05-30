@@ -9,7 +9,12 @@ import PostPage from './pages/PostPage/PostPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import RegisterPage from './pages/RegisterPage/RegisterPage';
 import Dashboard from './pages/Dashboard/dashboard';
-import DashTour from './pages/DashTour/DashTour'
+import DashAdmin from './pages/DashAdmin/DashAdmin';
+import DashUser from './pages/DashUser/DashUser';
+import DashTour from './pages/DashTour/DashTour';
+import DashPost from './pages/DashPost/DashPost';
+import DashFeedback from './pages/DashFeedback/DashFeedback';
+import AdminRoute from './pages/AdminRoute/AdminRoute';
 
 
 const App = () => {
@@ -21,6 +26,10 @@ const App = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/dashtour" element={<DashTour/>} />
+          <Route path="/dashpost" element={<DashPost/>} />
+          <Route path="/DashAdmin" element={<DashAdmin/>} />
+          <Route path="/dashuser" element={<DashUser/>} />
+          <Route path="/dashfeedback" element={<DashFeedback/>} />
           <Route path="/tours" element={<Tours />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/profile" element={<Profile />} />
@@ -28,7 +37,9 @@ const App = () => {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/tour-details" element={<TourDetails />} />
           <Route path="/posts" element={<PostPage />} />
-
+          <Route path="/adminroute" element={<AdminRoute/>} >
+            
+          </Route>
         </Routes>
       </div>
    

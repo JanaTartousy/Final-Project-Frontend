@@ -56,13 +56,13 @@ function LoginPage() {
             />
             <label>Password</label>
           </div>
-          <a type="submit">
+          <button type="submit">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             Submit
-          </a>
+          </button>
         </form>
         <p>
           Don't have an account?{" "}

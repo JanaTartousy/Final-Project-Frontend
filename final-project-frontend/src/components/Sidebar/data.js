@@ -19,27 +19,27 @@ export const SidebarData = [
     heading: "Dashboard",
   },
   {
-    path: "dashboard-Admin",
+    path: "DashAdmin",
     icon: AdminPanelSettingsIcon,
     heading: "Admin",
   },
   {
-    path: "dashboard-Users",
+    path: "DashUser",
     icon: Face3Icon,
     heading: "Users",
   },
   {
-    path: "dashboard-Tours",
+    path: "DashTour",
     icon: VaccinesIcon,
     heading: "Tours",
   },
   {
-    path: "dashboard-Posts",
+    path: "DashPost",
     icon: ChildCareIcon,
     heading: "Posts",
   },
   {
-    path: "dashboard-Feedbacks",
+    path: "DashFeedback",
     icon: ShoppingCartCheckoutIcon,
     heading: "Feedbacks",
   },
