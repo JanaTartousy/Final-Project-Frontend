@@ -8,6 +8,9 @@ import TourDetails from './pages/TourDetailsPage/TourDetailsPage.js'
 import PostPage from './pages/PostPage/PostPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import RegisterPage from './pages/RegisterPage/RegisterPage';
+import Dashboard from './pages/Dashboard/dashboard';
+import DashTour from './pages/DashTour/DashTour'
+
 
 const App = () => {
   return (
@@ -16,6 +19,8 @@ const App = () => {
         <Routes>
         <Route path='/' element={<Navigate to='/home'/>}/>
           <Route path="/home" element={<Home />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/dashtour" element={<DashTour/>} />
           <Route path="/tours" element={<Tours />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/profile" element={<Profile />} />

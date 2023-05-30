@@ -14,46 +14,33 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
-      {/* <div className='logo'> 
+      <div className="logo">
+        <Link to="/" className="logo">
           <img src={Logo} alt="Dalili-logo" />
-      </div> */}
+        </Link>
+      </div>
 
       <div className="contact-wrapper">
         <h2 className="info-title">Contact Info</h2>
         <ul>
           <li>
-            <FaWhatsapp
-              style={{
-                fontSize: "40px",
-                display: "inline",
-                verticalAlign: "middle",
-              }}
-            />{" "}
-            +96176485271
+            <FaWhatsapp className="contact-icon" /> +961 764 852 71
           </li>
           <li>
-            <MdEmail
-              style={{
-                fontSize: "40px",
-                display: "inline",
-                verticalAlign: "middle",
-              }}
-            />{" "}
-            tartousyjana@gmail.com
+            <MdEmail className="contact-icon" /> tartousyjana@gmail.com
           </li>
         </ul>
       </div>
-
       <div className="footer-pages">
         <div className="links-container">
           <h2 className="link-title">Links</h2>
-          <Link to="/" className="small-links">
+          <Link to="/" className="small-link">
             Home
           </Link>
-          <Link to="/tours" className="small-links">
+          <Link to="/tours" className="small-link">
             Tours
           </Link>
-          <Link to="/contact" className="small-links">
+          <Link to="/contact" className="small-link">
             Contact
           </Link>
         </div>

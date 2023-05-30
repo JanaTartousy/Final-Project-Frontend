@@ -28,7 +28,7 @@ function TourCards() {
           <div className="tour-card-content">
             <h2 className="tour-card-title">{tour.title}</h2>
             <p className="tour-card-description">{tour.description}</p>
-            <Link to="/tour-details" className="tour-card-button">
+            <Link to={`/tour-details/${tour._id}`} className="tour-card-button">
               Book Now
             </Link>
           </div>
